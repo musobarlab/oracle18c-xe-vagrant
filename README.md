@@ -67,13 +67,13 @@ SQL> alter session set "_ORACLE_SCRIPT"=true;
 Create a local user called whatever you want. Type the password for the user in the following line after "identified by"
 
 ```shell
-SQL> create user usernamehere identified by passwordhere;
+SQL> create user wury identified by 12345;
 ```
 
 Grant your user admin privileges:
 
 ```shell
-SQL> grant all privileges to usernamehere;
+SQL> grant all privileges to wury;
 ```
 
 Then exit the command prompt:
