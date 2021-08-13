@@ -1,0 +1,14 @@
+{
+  "name": "oracle18xe",
+  "version": "1.0.0",
+  "description": "Run and Test `Oracle 18c XE Database` with VirtualBox and Vagrant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "oracledb": "^5.2.0"
+  }
+}
