@@ -32,13 +32,17 @@ $ sudo su - oracle
 Add the following to the end of oracle user's .bashrc:
 
 ### User specific aliases and functions
-```
+```shell
 export ORACLE_BASE=/opt/oracle
 export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
 export ORACLE_SID=XE
 export PATH=$PATH:$ORACLE_HOME/bin
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib
-and type source ~/.bashrc
+```
+
+and type 
+```shell
+source ~/.bashrc
 ```
 
 Exit and go to the following site and download sql-developer: https://www.oracle.com/tools/downloads/sqldev-downloads.html
