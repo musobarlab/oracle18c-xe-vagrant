@@ -45,17 +45,26 @@ and type
 source ~/.bashrc
 ```
 
+### Oracle SQL Developer (optional)
 Exit and go to the following site and download sql-developer: https://www.oracle.com/tools/downloads/sqldev-downloads.html
 
 Install the .rpm and run the setup script:
 
 ```shell
-sudo dnf -y install sqldeveloper-20.4.1.407.0006-20.4.1-407.0006.noarch.rpm
-cd /opt/sqldeveloper/
-./sqldeveloper.sh
+$ sudo dnf -y install sqldeveloper-20.4.1.407.0006-20.4.1-407.0006.noarch.rpm
+$ cd /opt/sqldeveloper/
+$ ./sqldeveloper.sh
 ```
 
 For HiDPI displays, append to /opt/oracle-sqldeveloper/sqldeveloper/bin/sqldeveloper.conf the following: AddVMOption -Dsun.java2d.uiScale=2
+
+### How to add a non-system database user
+
+Login as oracle user using:
+
+```shell
+$ sudo su - oracle
+```
 
 How to add a non-system database user (so you don't have to see system tables): In a terminal type:
 ```shell
